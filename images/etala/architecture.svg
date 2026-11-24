@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" width="1100" height="560" font-family="ui-sans-serif,system-ui,Segoe UI,Roboto,Arial,sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2563EB"/></marker></defs>
+<rect width="1100" height="560" fill="#fff"/>
+<rect x="20" y="60" width="220" height="150" rx="5" fill="#fff" stroke="#0F172A" stroke-width="1.2"/>
+<text x="32" y="82" font-size="13.5" font-weight="700" fill="#0F172A">Browser</text>
+<text x="32" y="104" font-size="12" fill="#334155">HTML and CSS pages</text>
+<text x="32" y="122" font-size="12" fill="#334155">JavaScript (assets/js)</text>
+<text x="32" y="140" font-size="12" fill="#334155">AJAX requests, JSON replies</text>
+<text x="32" y="158" font-size="12" fill="#334155">Leaflet map on report pages</text>
+<text x="32" y="176" font-size="12" fill="#334155">Weather widget</text>
+<rect x="20" y="300" width="220" height="96" rx="5" fill="#F8FAFC" stroke="#0F172A" stroke-width="1.2"/>
+<text x="32" y="322" font-size="13.5" font-weight="700" fill="#0F172A">External services</text>
+<text x="32" y="344" font-size="12" fill="#334155">OpenStreetMap map tiles</text>
+<text x="32" y="362" font-size="12" fill="#334155">Open-Meteo weather API</text>
+<rect x="320" y="30" width="480" height="500" rx="6" fill="#F8FAFC" stroke="#0F172A" stroke-width="1.5"/>
+<text x="336" y="56" font-size="14" font-weight="700" fill="#0F172A">Apache + PHP 8 (XAMPP)</text>
+<rect x="336" y="72" width="448" height="88" rx="5" fill="#fff" stroke="#0F172A" stroke-width="1.2"/>
+<text x="348" y="94" font-size="13.5" font-weight="700" fill="#0F172A">Pages (project root)</text>
+<text x="348" y="116" font-size="12" fill="#334155">Incident reports, assignments, transfers, follow-ups</text>
+<text x="348" y="134" font-size="12" fill="#334155">Equipment, vehicles and fuel, emergency directory, profile</text>
+<rect x="336" y="176" width="448" height="70" rx="5" fill="#fff" stroke="#0F172A" stroke-width="1.2"/>
+<text x="348" y="198" font-size="13.5" font-weight="700" fill="#0F172A">admin/ (administrator pages)</text>
+<text x="348" y="220" font-size="12" fill="#334155">Dashboard, reports, analytics, audit log, users, CSV and XML export</text>
+<rect x="336" y="262" width="448" height="70" rx="5" fill="#fff" stroke="#0F172A" stroke-width="1.2"/>
+<text x="348" y="284" font-size="13.5" font-weight="700" fill="#0F172A">api-*.php (JSON endpoints)</text>
+<text x="348" y="306" font-size="12" fill="#334155">api-calendar, api-notifications, api-operations</text>
+<rect x="336" y="348" width="448" height="166" rx="5" fill="#fff" stroke="#0F172A" stroke-width="1.2"/>
+<text x="348" y="370" font-size="13.5" font-weight="700" fill="#0F172A">includes/ (shared code)</text>
+<text x="348" y="392" font-size="12" fill="#334155">auth.php: sessions, login, role checks, CSRF tokens</text>
+<text x="348" y="410" font-size="12" fill="#334155">db.php: one PDO connection (reads config.php)</text>
+<text x="348" y="428" font-size="12" fill="#334155">queries.php, v2.php: queries with prepared statements</text>
+<text x="348" y="446" font-size="12" fill="#334155">upload.php: photo type and size checks</text>
+<text x="348" y="464" font-size="12" fill="#334155">header.php, footer.php: shared page layout</text>
+<rect x="880" y="60" width="200" height="120" rx="5" fill="#fff" stroke="#0F172A" stroke-width="1.2"/>
+<text x="892" y="82" font-size="13.5" font-weight="700" fill="#0F172A">MySQL / MariaDB</text>
+<text x="892" y="104" font-size="12" fill="#334155">Database: etala_v2</text>
+<text x="892" y="122" font-size="12" fill="#334155">24 tables shown in the ERD</text>
+<text x="892" y="140" font-size="12" fill="#334155">Managed in phpMyAdmin</text>
+<rect x="880" y="260" width="200" height="150" rx="5" fill="#F8FAFC" stroke="#0F172A" stroke-width="1.2"/>
+<text x="892" y="282" font-size="13.5" font-weight="700" fill="#0F172A">uploads/ folder</text>
+<text x="892" y="304" font-size="12" fill="#334155">Incident photos and</text>
+<text x="892" y="322" font-size="12" fill="#334155">fuel receipts.</text>
+<text x="892" y="340" font-size="12" fill="#334155">Not reachable by URL;</text>
+<text x="892" y="358" font-size="12" fill="#334155">photo.php and</text>
+<text x="892" y="376" font-size="12" fill="#334155">fuel-receipt.php check</text>
+<text x="892" y="394" font-size="12" fill="#334155">the login first.</text>
+<path d="M240 110L320 110" stroke="#2563EB" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+<text x="280" y="62" font-size="11" fill="#2563EB" text-anchor="middle">HTTP requests,</text>
+<text x="280" y="76" font-size="11" fill="#2563EB" text-anchor="middle">form posts</text>
+<text x="280" y="90" font-size="11" fill="#2563EB" text-anchor="middle">with CSRF token</text>
+<path d="M320 160L240 160" stroke="#2563EB" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+<path d="M130 210L130 300" stroke="#2563EB" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+<text x="196" y="236" font-size="11" fill="#2563EB" text-anchor="middle">map and weather</text>
+<text x="196" y="250" font-size="11" fill="#2563EB" text-anchor="middle">requests from</text>
+<text x="196" y="264" font-size="11" fill="#2563EB" text-anchor="middle">the browser</text>
+<path d="M784 118L880 118" stroke="#2563EB" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+<text x="832" y="60" font-size="11" fill="#2563EB" text-anchor="middle">PDO</text>
+<text x="832" y="74" font-size="11" fill="#2563EB" text-anchor="middle">prepared</text>
+<text x="832" y="88" font-size="11" fill="#2563EB" text-anchor="middle">statements</text>
+<path d="M784 430L880 350" stroke="#2563EB" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+<text x="838" y="456" font-size="11" fill="#2563EB" text-anchor="middle">file saves and</text>
+<text x="838" y="470" font-size="11" fill="#2563EB" text-anchor="middle">checked reads</text>
+<text x="20" y="548" font-size="11" fill="#64748B">Built from the project files: includes/, admin/, api-*.php, assets/js and database/schema.sql.</text></svg>
